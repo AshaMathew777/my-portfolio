@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Protest Revolution" , sans-serif;
+}
+.cha{
+    text-align: center;
+}
+#lastname{
+   color: red;
+}
+.title{
+    margin-top: 100px;
+}
+
+#download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+    display: inline-block;
+
+}
+#download:hover{
+    color: blue;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    color: red;
+}
+#kim{
+    color: maroon;
+}
+.new{
+    padding-top: 10px;
+    
+}
+#jk{
+    margin-top: -70px;
+} 
+
+.led{
+    text-align: center;
+}
+.new i{
+    padding: 20px;
+}
+.dot{
+    color: blueviolet;
+}
+#skil{
+    color: rgb(127, 4, 18);
+}
+
+.skills{
+    text-align: center;
+}
+.mys{
+    padding: 10px;
+}
+
+#re{
+    color: crimson;
+}
+
+.con{
+    text-align: center;
+}
+
+/* .conts{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+    /* background-image: linear-gradient(o top left,red,yellow); */
+    /* width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+   
+} */ 
+/* .cont i{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+} */
+
+.conts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.cont{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+    margin: 0px 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.cont i{
+    padding-left: 12px; 
+    color: black;
+}
+.cont :hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+    
+    font-size: 30px;
+    background-image: linear-gradient(to top left,red,yellow);
+}
+.cont:hover i{
+    color: white;
+    padding-top: 11px;
+    padding-left: -2px;
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+/* footer p{
+    margin-left: 500px;
+} */
+footer{
+    margin: 50px 0px;
+}
+footer p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
